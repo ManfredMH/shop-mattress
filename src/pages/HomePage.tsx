@@ -41,7 +41,7 @@ const Home: React.FC = () => {
             selected={selected}
             setSelected={setSelected}
           />
-          <button className="btn btn-block text-white p-3 mt-5" onClick={addToCart}>Add to Cart</button>
+          <button className="btn btn-block text-white p-3 mt-5 add-to-cart" onClick={addToCart}>Add to Cart</button>
         </div>
       </div>
     </>

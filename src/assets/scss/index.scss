@@ -56,3 +56,39 @@ body {
 .btn-block {
   background-color: $primary-color;
 }
+
+@media (max-width: 480px) {
+  body {
+    text-align: center;
+  }
+
+  .saatva-logo {
+    width: 25%;
+    height: 15%;
+  }
+
+  .input-group .form-control {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .input-group {
+    display: block;
+  }
+
+  .image {
+    height: 40vh;
+    width: 100%;
+    padding: 0 0;
+  }
+
+  .row {
+    margin: 0!important;
+    padding: 10px 0!important;
+  }
+
+  .nav-container {
+    margin: 0!important;
+  }
+}

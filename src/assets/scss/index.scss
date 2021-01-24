@@ -1,0 +1,58 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Source+Sans+Pro:wght@400&display=swap');
+
+// Font Variables
+$questrial: 'Questrial', sans-serif;
+$source-serif-pro: 'Source Sans Pro', sans-serif;
+
+// Colors Variables
+$primary-color: #D4AA63;
+$background: #F6F5F3;
+
+body {
+  font-family: $questrial;
+  background-color: $background;
+}
+
+.saatva-logo {
+  width: 10%;
+  height: 5%;
+}
+
+.cart {
+  color: black;
+  font-size: 23px;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.cart-count {
+  font-size: 15px;
+  background: $primary-color;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px; 
+}
+
+.image {
+  height: 50vh;
+}
+
+.title {
+  font-family: $source-serif-pro!important;
+}
+
+.btn-block {
+  background-color: $primary-color;
+}

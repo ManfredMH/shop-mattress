@@ -1,0 +1,2 @@
+export const ADD_MATTRESS = 'ADD_MATTRESS';
+export const REMOVE_MATTRESS = 'REMOVE_MATTRESS';

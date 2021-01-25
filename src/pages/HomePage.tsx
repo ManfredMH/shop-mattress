@@ -3,6 +3,7 @@ import { useState } from 'react';
 // Components
 import Navbar from '../components/Navbar';
 import Mattress from '../components/Mattress';
+import Button from '../components/Button';
 import Image from '../components/Image';
 
 // Context
@@ -32,7 +33,7 @@ const Home: React.FC = () => {
           <Image
             classes="rounded image"
             alt="mattress"
-            src={selected === 'classic' ? ClassicImage : selected === 'loom' ? LoomImage : ZenImage}
+            src={selected === MattressType.CLASSIC ? ClassicImage : selected === MattressType.LOOM ? LoomImage : ZenImage}
           />
         </div>
         <div className="col-md-6 col-sm-12">
@@ -41,7 +42,7 @@ const Home: React.FC = () => {
             selected={selected}
             setSelected={setSelected}
           />
-          <button className="btn btn-block text-white p-3 mt-5 add-to-cart" onClick={addToCart}>Add to Cart</button>
+          <Button classes="btn-block text-white p-3 mt-5 add-to-cart" text="Add to Cart" onClick={addToCart} />
         </div>
       </div>
     </>
